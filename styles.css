@@ -1,0 +1,85 @@
+body {
+    background: rgb(32, 28, 28);
+    color: azure;
+    font-family: monospace;
+    margin: 10px;
+}
+
+header {
+    background: rgb(43, 38, 38);
+    background-image: url("images/max-harlynking--pHHVcxNbq0-unsplash.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    color: azure;
+    padding: 20px;
+}
+
+.inspiration-header {
+    background: rgb(43, 38, 38);
+    background-image: url("images/marek-piwnicki-5hri_jol2wE-unsplash.jpg");
+    background-size: 100%;
+    background-position: bottom;
+    height: 200px;
+    text-align: center;
+    color: azure;
+    padding: 20px;
+}
+
+.social-header {
+    background: rgb(43, 38, 38);
+    background-image: url("images/kristaps-ungurs-RcWvay1qGwc-unsplash.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    color: azure;
+    padding: 20px;
+}
+
+header nav {
+    border: 2px solid #ffffff;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    color: rgb(43, 38, 38);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background:rgb(43, 38, 38);
+    color: azure;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer {
+    background: rgb(43, 38, 38);
+    padding: 10px 20px;
+}
+a {
+    font-size: large;
+    text-decoration: none;
+    color: azure;
+}
+a:hover {
+    color: rgb(43, 38, 38);
+    background: azure;
+}
